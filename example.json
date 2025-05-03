@@ -1,0 +1,26 @@
+{
+  "agents": [
+    {
+      "name": "Agent第一个",
+      "api_type": "DeepSeek",
+      "model": "deepseek-chat",
+      "system_prompt": "润色一下输入"
+    },
+    {
+      "name": "Agent第二个",
+      "api_type": "DeepSeek",
+      "model": "deepseek-chat",
+      "system_prompt": "结构化输入"
+    },
+    {
+      "name": "Agent第三个",
+      "api_type": "DeepSeek",
+      "model": "deepseek-chat",
+      "system_prompt": "给每一条都附加简短的评语"
+    }
+  ],
+  "workflow": [
+    "Agent第一个 |要俏皮一点| -->  Agent第二个 |要凸显逻辑| : {展示}",
+    "Agent第二个 |要凸显逻辑| -->  Agent第三个 |言辞要犀利| : {评语}"
+  ]
+}

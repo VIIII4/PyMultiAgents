@@ -1,0 +1,6 @@
+# MultiAgent 协作系统依赖
+PyQt6>=6.4.0  # 使用较新版本的PyQt6
+openai>=1.0.0  # OpenAI API客户端
+python-dotenv>=1.0.0  # 环境变量管理
+networkx>=3.0  # 工作流图处理
+
